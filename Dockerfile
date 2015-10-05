@@ -6,7 +6,7 @@
 # Following the best practices outlined in:
 #   http://jonathan.bergknoff.com/journal/building-good-docker-images
 
-FROM evarga/jenkins-slave
+FROM grumpydocker/dind-jenkins-slave
 
 ENV DEBIAN_FRONTEND noninteractive
 
